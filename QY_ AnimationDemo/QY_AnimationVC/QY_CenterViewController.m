@@ -23,7 +23,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self.view addSubview:getQY_TopBarViewInstancetype(@"首页")];
+    [self.view addSubview:getQY_TopBarViewInstancetype(@"视图弹出")];
     [self initView];
     
     SWRevealViewController *revealVC = [self revealViewController];
@@ -88,6 +88,7 @@
 }
 
 
+#pragma mark - 请看这里，有惊喜！！！！
 -(void)clickBtn : (UIButton *)btn{
     
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(20, 20, 100, 100)];

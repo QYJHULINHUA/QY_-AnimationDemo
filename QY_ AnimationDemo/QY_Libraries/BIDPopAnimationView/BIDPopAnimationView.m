@@ -8,6 +8,21 @@
 
 #import "BIDPopAnimationView.h"
 
+@implementation BIDPopStyle
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.animationType = PopAnimation_Transform;
+        self.alignmentType = PopAlignmentType_Center;
+        self.isHaveCancel = YES;
+    }
+    return self;
+}
+
+@end
+
 
 @interface BIDPopAnimationView()
 

@@ -22,7 +22,6 @@
 		991212681CB74EFB009FF84A /* QY__AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 991212671CB74EFB009FF84A /* QY__AnimationDemoTests.m */; };
 		991212731CB74EFB009FF84A /* QY__AnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 991212721CB74EFB009FF84A /* QY__AnimationDemoUITests.m */; };
 		99EFFDD11CBB3AC900B8510F /* BIDPopAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFFDCE1CBB3AC900B8510F /* BIDPopAnimationView.m */; };
-		99EFFDD21CBB3AC900B8510F /* BIDPopStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFFDD01CBB3AC900B8510F /* BIDPopStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,8 +73,6 @@
 		991212741CB74EFB009FF84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99EFFDCD1CBB3AC900B8510F /* BIDPopAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPopAnimationView.h; sourceTree = "<group>"; };
 		99EFFDCE1CBB3AC900B8510F /* BIDPopAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPopAnimationView.m; sourceTree = "<group>"; };
-		99EFFDCF1CBB3AC900B8510F /* BIDPopStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPopStyle.h; sourceTree = "<group>"; };
-		99EFFDD01CBB3AC900B8510F /* BIDPopStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPopStyle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,8 +213,6 @@
 			children = (
 				99EFFDCD1CBB3AC900B8510F /* BIDPopAnimationView.h */,
 				99EFFDCE1CBB3AC900B8510F /* BIDPopAnimationView.m */,
-				99EFFDCF1CBB3AC900B8510F /* BIDPopStyle.h */,
-				99EFFDD01CBB3AC900B8510F /* BIDPopStyle.m */,
 			);
 			path = BIDPopAnimationView;
 			sourceTree = "<group>";
@@ -357,7 +352,6 @@
 				99EFFDD11CBB3AC900B8510F /* BIDPopAnimationView.m in Sources */,
 				990F89E41CB75198002B7DA4 /* QY_CenterViewController.m in Sources */,
 				991212521CB74EFA009FF84A /* AppDelegate.m in Sources */,
-				99EFFDD21CBB3AC900B8510F /* BIDPopStyle.m in Sources */,
 				990F89E11CB75182002B7DA4 /* QY_LeftViewController.m in Sources */,
 				9912124F1CB74EFA009FF84A /* main.m in Sources */,
 				990F89F21CB764A5002B7DA4 /* QY_TitleButton.m in Sources */,
