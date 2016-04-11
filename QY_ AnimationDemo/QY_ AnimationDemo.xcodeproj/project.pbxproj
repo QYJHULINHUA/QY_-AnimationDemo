@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		990F89DD1CB7509C002B7DA4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F89DC1CB7509C002B7DA4 /* SWRevealViewController.m */; };
+		990F89E11CB75182002B7DA4 /* QY_LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F89E01CB75182002B7DA4 /* QY_LeftViewController.m */; };
+		990F89E41CB75198002B7DA4 /* QY_CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F89E31CB75198002B7DA4 /* QY_CenterViewController.m */; };
+		990F89E71CB751A7002B7DA4 /* QY_RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F89E61CB751A7002B7DA4 /* QY_RightViewController.m */; };
+		990F89EF1CB75AED002B7DA4 /* QY_TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F89EE1CB75AED002B7DA4 /* QY_TopBarView.m */; };
+		990F89F21CB764A5002B7DA4 /* QY_TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F89F11CB764A5002B7DA4 /* QY_TitleButton.m */; };
+		9912124F1CB74EFA009FF84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912124E1CB74EFA009FF84A /* main.m */; };
+		991212521CB74EFA009FF84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991212511CB74EFA009FF84A /* AppDelegate.m */; };
+		991212551CB74EFB009FF84A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991212541CB74EFB009FF84A /* ViewController.m */; };
+		991212581CB74EFB009FF84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991212561CB74EFB009FF84A /* Main.storyboard */; };
+		9912125A1CB74EFB009FF84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991212591CB74EFB009FF84A /* Assets.xcassets */; };
+		9912125D1CB74EFB009FF84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912125B1CB74EFB009FF84A /* LaunchScreen.storyboard */; };
+		991212681CB74EFB009FF84A /* QY__AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 991212671CB74EFB009FF84A /* QY__AnimationDemoTests.m */; };
+		991212731CB74EFB009FF84A /* QY__AnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 991212721CB74EFB009FF84A /* QY__AnimationDemoUITests.m */; };
+		99EFFDD11CBB3AC900B8510F /* BIDPopAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFFDCE1CBB3AC900B8510F /* BIDPopAnimationView.m */; };
+		99EFFDD21CBB3AC900B8510F /* BIDPopStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFFDD01CBB3AC900B8510F /* BIDPopStyle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991212641CB74EFB009FF84A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991212421CB74EFA009FF84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991212491CB74EFA009FF84A;
+			remoteInfo = "QY_ AnimationDemo";
+		};
+		9912126F1CB74EFB009FF84A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991212421CB74EFA009FF84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991212491CB74EFA009FF84A;
+			remoteInfo = "QY_ AnimationDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		990F89DB1CB7509C002B7DA4 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		990F89DC1CB7509C002B7DA4 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		990F89DF1CB75182002B7DA4 /* QY_LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QY_LeftViewController.h; sourceTree = "<group>"; };
+		990F89E01CB75182002B7DA4 /* QY_LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QY_LeftViewController.m; sourceTree = "<group>"; };
+		990F89E21CB75198002B7DA4 /* QY_CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QY_CenterViewController.h; sourceTree = "<group>"; };
+		990F89E31CB75198002B7DA4 /* QY_CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QY_CenterViewController.m; sourceTree = "<group>"; };
+		990F89E51CB751A7002B7DA4 /* QY_RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QY_RightViewController.h; sourceTree = "<group>"; };
+		990F89E61CB751A7002B7DA4 /* QY_RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QY_RightViewController.m; sourceTree = "<group>"; };
+		990F89E81CB7592A002B7DA4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		990F89ED1CB75AED002B7DA4 /* QY_TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QY_TopBarView.h; sourceTree = "<group>"; };
+		990F89EE1CB75AED002B7DA4 /* QY_TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QY_TopBarView.m; sourceTree = "<group>"; };
+		990F89F01CB764A5002B7DA4 /* QY_TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QY_TitleButton.h; sourceTree = "<group>"; };
+		990F89F11CB764A5002B7DA4 /* QY_TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QY_TitleButton.m; sourceTree = "<group>"; };
+		9912124A1CB74EFA009FF84A /* QY_ AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QY_ AnimationDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9912124E1CB74EFA009FF84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		991212501CB74EFA009FF84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		991212511CB74EFA009FF84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		991212531CB74EFB009FF84A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		991212541CB74EFB009FF84A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		991212571CB74EFB009FF84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		991212591CB74EFB009FF84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9912125C1CB74EFB009FF84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9912125E1CB74EFB009FF84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991212631CB74EFB009FF84A /* QY_ AnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QY_ AnimationDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		991212671CB74EFB009FF84A /* QY__AnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QY__AnimationDemoTests.m; sourceTree = "<group>"; };
+		991212691CB74EFB009FF84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9912126E1CB74EFB009FF84A /* QY_ AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QY_ AnimationDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		991212721CB74EFB009FF84A /* QY__AnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QY__AnimationDemoUITests.m; sourceTree = "<group>"; };
+		991212741CB74EFB009FF84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EFFDCD1CBB3AC900B8510F /* BIDPopAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPopAnimationView.h; sourceTree = "<group>"; };
+		99EFFDCE1CBB3AC900B8510F /* BIDPopAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPopAnimationView.m; sourceTree = "<group>"; };
+		99EFFDCF1CBB3AC900B8510F /* BIDPopStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPopStyle.h; sourceTree = "<group>"; };
+		99EFFDD01CBB3AC900B8510F /* BIDPopStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPopStyle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991212471CB74EFA009FF84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991212601CB74EFB009FF84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9912126B1CB74EFB009FF84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		990F89DA1CB7509C002B7DA4 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				990F89DB1CB7509C002B7DA4 /* SWRevealViewController.h */,
+				990F89DC1CB7509C002B7DA4 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		990F89DE1CB75165002B7DA4 /* QY_AnimationVC */ = {
+			isa = PBXGroup;
+			children = (
+				990F89DF1CB75182002B7DA4 /* QY_LeftViewController.h */,
+				990F89E01CB75182002B7DA4 /* QY_LeftViewController.m */,
+				990F89E21CB75198002B7DA4 /* QY_CenterViewController.h */,
+				990F89E31CB75198002B7DA4 /* QY_CenterViewController.m */,
+				990F89E51CB751A7002B7DA4 /* QY_RightViewController.h */,
+				990F89E61CB751A7002B7DA4 /* QY_RightViewController.m */,
+			);
+			path = QY_AnimationVC;
+			sourceTree = "<group>";
+		};
+		990F89E91CB75A03002B7DA4 /* QY_AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				990F89ED1CB75AED002B7DA4 /* QY_TopBarView.h */,
+				990F89EE1CB75AED002B7DA4 /* QY_TopBarView.m */,
+				990F89F01CB764A5002B7DA4 /* QY_TitleButton.h */,
+				990F89F11CB764A5002B7DA4 /* QY_TitleButton.m */,
+			);
+			path = QY_AnimationView;
+			sourceTree = "<group>";
+		};
+		991212411CB74EFA009FF84A = {
+			isa = PBXGroup;
+			children = (
+				99EFFDCB1CBB3AC300B8510F /* QY_Libraries */,
+				990F89E91CB75A03002B7DA4 /* QY_AnimationView */,
+				990F89DE1CB75165002B7DA4 /* QY_AnimationVC */,
+				990F89DA1CB7509C002B7DA4 /* SWRevealViewController */,
+				9912124C1CB74EFA009FF84A /* QY_ AnimationDemo */,
+				991212661CB74EFB009FF84A /* QY_ AnimationDemoTests */,
+				991212711CB74EFB009FF84A /* QY_ AnimationDemoUITests */,
+				9912124B1CB74EFA009FF84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9912124B1CB74EFA009FF84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9912124A1CB74EFA009FF84A /* QY_ AnimationDemo.app */,
+				991212631CB74EFB009FF84A /* QY_ AnimationDemoTests.xctest */,
+				9912126E1CB74EFB009FF84A /* QY_ AnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9912124C1CB74EFA009FF84A /* QY_ AnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				991212501CB74EFA009FF84A /* AppDelegate.h */,
+				991212511CB74EFA009FF84A /* AppDelegate.m */,
+				991212531CB74EFB009FF84A /* ViewController.h */,
+				991212541CB74EFB009FF84A /* ViewController.m */,
+				991212561CB74EFB009FF84A /* Main.storyboard */,
+				991212591CB74EFB009FF84A /* Assets.xcassets */,
+				9912125B1CB74EFB009FF84A /* LaunchScreen.storyboard */,
+				9912125E1CB74EFB009FF84A /* Info.plist */,
+				9912124D1CB74EFA009FF84A /* Supporting Files */,
+			);
+			path = "QY_ AnimationDemo";
+			sourceTree = "<group>";
+		};
+		9912124D1CB74EFA009FF84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9912124E1CB74EFA009FF84A /* main.m */,
+				990F89E81CB7592A002B7DA4 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991212661CB74EFB009FF84A /* QY_ AnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				991212671CB74EFB009FF84A /* QY__AnimationDemoTests.m */,
+				991212691CB74EFB009FF84A /* Info.plist */,
+			);
+			path = "QY_ AnimationDemoTests";
+			sourceTree = "<group>";
+		};
+		991212711CB74EFB009FF84A /* QY_ AnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				991212721CB74EFB009FF84A /* QY__AnimationDemoUITests.m */,
+				991212741CB74EFB009FF84A /* Info.plist */,
+			);
+			path = "QY_ AnimationDemoUITests";
+			sourceTree = "<group>";
+		};
+		99EFFDCB1CBB3AC300B8510F /* QY_Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				99EFFDCC1CBB3AC900B8510F /* BIDPopAnimationView */,
+			);
+			path = QY_Libraries;
+			sourceTree = "<group>";
+		};
+		99EFFDCC1CBB3AC900B8510F /* BIDPopAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				99EFFDCD1CBB3AC900B8510F /* BIDPopAnimationView.h */,
+				99EFFDCE1CBB3AC900B8510F /* BIDPopAnimationView.m */,
+				99EFFDCF1CBB3AC900B8510F /* BIDPopStyle.h */,
+				99EFFDD01CBB3AC900B8510F /* BIDPopStyle.m */,
+			);
+			path = BIDPopAnimationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991212491CB74EFA009FF84A /* QY_ AnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991212771CB74EFB009FF84A /* Build configuration list for PBXNativeTarget "QY_ AnimationDemo" */;
+			buildPhases = (
+				991212461CB74EFA009FF84A /* Sources */,
+				991212471CB74EFA009FF84A /* Frameworks */,
+				991212481CB74EFA009FF84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QY_ AnimationDemo";
+			productName = "QY_ AnimationDemo";
+			productReference = 9912124A1CB74EFA009FF84A /* QY_ AnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991212621CB74EFB009FF84A /* QY_ AnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9912127A1CB74EFB009FF84A /* Build configuration list for PBXNativeTarget "QY_ AnimationDemoTests" */;
+			buildPhases = (
+				9912125F1CB74EFB009FF84A /* Sources */,
+				991212601CB74EFB009FF84A /* Frameworks */,
+				991212611CB74EFB009FF84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991212651CB74EFB009FF84A /* PBXTargetDependency */,
+			);
+			name = "QY_ AnimationDemoTests";
+			productName = "QY_ AnimationDemoTests";
+			productReference = 991212631CB74EFB009FF84A /* QY_ AnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9912126D1CB74EFB009FF84A /* QY_ AnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9912127D1CB74EFB009FF84A /* Build configuration list for PBXNativeTarget "QY_ AnimationDemoUITests" */;
+			buildPhases = (
+				9912126A1CB74EFB009FF84A /* Sources */,
+				9912126B1CB74EFB009FF84A /* Frameworks */,
+				9912126C1CB74EFB009FF84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991212701CB74EFB009FF84A /* PBXTargetDependency */,
+			);
+			name = "QY_ AnimationDemoUITests";
+			productName = "QY_ AnimationDemoUITests";
+			productReference = 9912126E1CB74EFB009FF84A /* QY_ AnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991212421CB74EFA009FF84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ihefe_hlh;
+				TargetAttributes = {
+					991212491CB74EFA009FF84A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2AHKDU2ECU;
+					};
+					991212621CB74EFB009FF84A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 991212491CB74EFA009FF84A;
+					};
+					9912126D1CB74EFB009FF84A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 991212491CB74EFA009FF84A;
+					};
+				};
+			};
+			buildConfigurationList = 991212451CB74EFA009FF84A /* Build configuration list for PBXProject "QY_ AnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991212411CB74EFA009FF84A;
+			productRefGroup = 9912124B1CB74EFA009FF84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991212491CB74EFA009FF84A /* QY_ AnimationDemo */,
+				991212621CB74EFB009FF84A /* QY_ AnimationDemoTests */,
+				9912126D1CB74EFB009FF84A /* QY_ AnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991212481CB74EFA009FF84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9912125D1CB74EFB009FF84A /* LaunchScreen.storyboard in Resources */,
+				9912125A1CB74EFB009FF84A /* Assets.xcassets in Resources */,
+				991212581CB74EFB009FF84A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991212611CB74EFB009FF84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9912126C1CB74EFB009FF84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991212461CB74EFA009FF84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991212551CB74EFB009FF84A /* ViewController.m in Sources */,
+				99EFFDD11CBB3AC900B8510F /* BIDPopAnimationView.m in Sources */,
+				990F89E41CB75198002B7DA4 /* QY_CenterViewController.m in Sources */,
+				991212521CB74EFA009FF84A /* AppDelegate.m in Sources */,
+				99EFFDD21CBB3AC900B8510F /* BIDPopStyle.m in Sources */,
+				990F89E11CB75182002B7DA4 /* QY_LeftViewController.m in Sources */,
+				9912124F1CB74EFA009FF84A /* main.m in Sources */,
+				990F89F21CB764A5002B7DA4 /* QY_TitleButton.m in Sources */,
+				990F89E71CB751A7002B7DA4 /* QY_RightViewController.m in Sources */,
+				990F89EF1CB75AED002B7DA4 /* QY_TopBarView.m in Sources */,
+				990F89DD1CB7509C002B7DA4 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9912125F1CB74EFB009FF84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991212681CB74EFB009FF84A /* QY__AnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9912126A1CB74EFB009FF84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991212731CB74EFB009FF84A /* QY__AnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991212651CB74EFB009FF84A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991212491CB74EFA009FF84A /* QY_ AnimationDemo */;
+			targetProxy = 991212641CB74EFB009FF84A /* PBXContainerItemProxy */;
+		};
+		991212701CB74EFB009FF84A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991212491CB74EFA009FF84A /* QY_ AnimationDemo */;
+			targetProxy = 9912126F1CB74EFB009FF84A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		991212561CB74EFB009FF84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991212571CB74EFB009FF84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9912125B1CB74EFB009FF84A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9912125C1CB74EFB009FF84A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		991212751CB74EFB009FF84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		991212761CB74EFB009FF84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991212781CB74EFB009FF84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QY_ AnimationDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = "QY_ AnimationDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihefe.com.QY--AnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		991212791CB74EFB009FF84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QY_ AnimationDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = "QY_ AnimationDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihefe.com.QY--AnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9912127B1CB74EFB009FF84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QY_ AnimationDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihefe.com.QY--AnimationDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QY_ AnimationDemo.app/QY_ AnimationDemo";
+			};
+			name = Debug;
+		};
+		9912127C1CB74EFB009FF84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QY_ AnimationDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihefe.com.QY--AnimationDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QY_ AnimationDemo.app/QY_ AnimationDemo";
+			};
+			name = Release;
+		};
+		9912127E1CB74EFB009FF84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QY_ AnimationDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihefe.com.QY--AnimationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QY_ AnimationDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9912127F1CB74EFB009FF84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QY_ AnimationDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihefe.com.QY--AnimationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QY_ AnimationDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991212451CB74EFA009FF84A /* Build configuration list for PBXProject "QY_ AnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991212751CB74EFB009FF84A /* Debug */,
+				991212761CB74EFB009FF84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991212771CB74EFB009FF84A /* Build configuration list for PBXNativeTarget "QY_ AnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991212781CB74EFB009FF84A /* Debug */,
+				991212791CB74EFB009FF84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9912127A1CB74EFB009FF84A /* Build configuration list for PBXNativeTarget "QY_ AnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9912127B1CB74EFB009FF84A /* Debug */,
+				9912127C1CB74EFB009FF84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9912127D1CB74EFB009FF84A /* Build configuration list for PBXNativeTarget "QY_ AnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9912127E1CB74EFB009FF84A /* Debug */,
+				9912127F1CB74EFB009FF84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991212421CB74EFA009FF84A /* Project object */;
+}
